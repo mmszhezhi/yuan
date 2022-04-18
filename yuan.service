@@ -1,0 +1,7 @@
+[Service]
+Type=simple
+Restart=always
+RuntimeMaxSec=120000
+ExecStart=/home/herman/.virtualenvs/vision/bin/jupyter notebook /home/herman/yuan --config /home/herman/.jupyter/jupyter_notebook_config.py 
+[Install]
+WantedBy=multi-user.target
