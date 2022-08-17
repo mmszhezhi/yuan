@@ -19,6 +19,7 @@ def getfactor():
     factor = factor.T
     factor.columns= factor.iloc[0]
 
+
     return factor
 
 factor = getfactor()
